@@ -1,0 +1,69 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    flex-grow: 1;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+footer {
+    font-family: 'Quantico', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Estilos de la página del servidor */
+@font-face {
+    font-family: 'neuropol';
+    src: url('carpeta-fonts/Neuropol.woff2') format('woff2'),
+         url('carpeta-fonts/Neuropol.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Starjedi';
+    src: url('carpeta-fonts/Starjedi.woff2') format('woff2'),
+         url('carpeta-fonts/Starjedi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refuel';
+    src: url('carpeta-fonts/Refuel Eb Cond.woff2') format('woff2'),
+         url('carpeta-fonts/Refuel Eb Cond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1.servidor {
+    font-family: 'neuropol', sans-serif;
+}
+
+h2.servidor {
+    font-family: 'Starjedi', sans-serif;
+}
+
+main.servidor {
+    font-family: 'Refuel', sans-serif;
+}
