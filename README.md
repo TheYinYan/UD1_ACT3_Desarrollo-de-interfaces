@@ -1,12 +1,12 @@
 Crear una página web que incluya:
 
 
-Un menú de navegación en el header con iconos (por fuente web). 
+1. Un menú de navegación en el header con iconos (por fuente web). 
 
        Mínimo 5 opciones.
 
-Un footer con iconos de redes sociales usando SVG descargados.
+2. Un footer con iconos de redes sociales usando SVG descargados.
 
-Separación correcta entre HTML y CSS.
+3. Separación correcta entre HTML y CSS.
 
-Uso de enlaces reales o ficticios.
+4. Uso de enlaces reales o ficticios.
